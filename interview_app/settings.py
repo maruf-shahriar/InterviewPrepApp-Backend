@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-k)r89%0wnykf+$q#z0pycbtf)adp=qhq=de#gav6za0*c*0ps@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -167,7 +167,7 @@ EMAIL_PORT = 587
 
 CORS_ALLOWED_ORIGINS = [
 
-    "http://localhost:3001",
+    "http://localhost:3000",
 
 ]
 CORS_ALLOW_CREDENTIALS = True
